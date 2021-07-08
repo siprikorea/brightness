@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">brightness</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="min">MIN</string>
+    <string name="auto">AUTO</string>
+    <string name="max">MAX</string>
+    <string name="min_value">Minimum brightness value</string>
+    <string name="max_value">Maximum brightness value</string>
+</resources>

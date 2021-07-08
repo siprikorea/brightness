@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.Brightness.AppWidgetContainer"
+    android:weightSum="3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/widget_margin"
+        android:theme="@style/ThemeOverlay.Brightness.AppWidgetContainer"
+        android:weightSum="3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_brightness"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_brightness" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_brightness" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="@dimen/widget_margin"
+        android:theme="@style/ThemeOverlay.Brightness.AppWidgetContainer"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/min"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/widget_margin"
+            android:layout_weight="1"
+            android:background="?attr/appWidgetBackgroundColor"
+            android:contentDescription="@string/min"
+            android:text="@string/min"
+            android:textColor="?attr/appWidgetTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            tools:ignore="NestedWeights" />
+
+        <Button
+            android:id="@+id/auto"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/widget_margin"
+            android:layout_weight="1"
+            android:background="?attr/appWidgetBackgroundColor"
+            android:contentDescription="@string/auto"
+            android:text="@string/auto"
+            android:textColor="?attr/appWidgetTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/max"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/widget_margin"
+            android:layout_weight="1"
+            android:background="?attr/appWidgetBackgroundColor"
+            android:contentDescription="@string/max"
+            android:text="@string/max"
+            android:textColor="?attr/appWidgetTextColor"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</LinearLayout>
